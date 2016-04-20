@@ -25,13 +25,14 @@ public class KeyInput extends KeyAdapter{
 				if(key == KeyEvent.VK_A) tempObject.setVelX(-5);
 
 			}
-			
-			if(tempObject.getID() == ID.Player2) {
-				// key events for player 2
-				if(key == KeyEvent.VK_UP) tempObject.setVelY(-5);
-				if(key == KeyEvent.VK_DOWN) tempObject.setVelY(5);
-				if(key == KeyEvent.VK_RIGHT) tempObject.setVelX(5);
-				if(key == KeyEvent.VK_LEFT) tempObject.setVelX(-5);			}
+			//player 2
+//			if(tempObject.getID() == ID.Player2) {
+//				// key events for player 2
+//				if(key == KeyEvent.VK_UP) tempObject.setVelY(-5);
+//				if(key == KeyEvent.VK_DOWN) tempObject.setVelY(5);
+//				if(key == KeyEvent.VK_RIGHT) tempObject.setVelX(5);
+//				if(key == KeyEvent.VK_LEFT) tempObject.setVelX(-5);			
+//			}
 		}
 	}
 
@@ -49,17 +50,17 @@ public class KeyInput extends KeyAdapter{
 				if(key == KeyEvent.VK_A) tempObject.setVelX(0);
 
 			}
-			
-			if(tempObject.getID() == ID.Player2) {
-				// key events for player 2
-				if(tempObject.getID() == ID.Player2) {
-					// key events for player 2
-					if(key == KeyEvent.VK_UP) tempObject.setVelY(0);
-					if(key == KeyEvent.VK_DOWN) tempObject.setVelY(0);
-					if(key == KeyEvent.VK_RIGHT) tempObject.setVelX(0);
-					if(key == KeyEvent.VK_LEFT) tempObject.setVelX(0);	
-				}
-			}
+			//player 2
+//			if(tempObject.getID() == ID.Player2) {
+//				// key events for player 2
+//				if(tempObject.getID() == ID.Player2) {
+//					// key events for player 2
+//					if(key == KeyEvent.VK_UP) tempObject.setVelY(0);
+//					if(key == KeyEvent.VK_DOWN) tempObject.setVelY(0);
+//					if(key == KeyEvent.VK_RIGHT) tempObject.setVelX(0);
+//					if(key == KeyEvent.VK_LEFT) tempObject.setVelX(0);	
+//				}
+//			}
 		}	
 	}
 }
