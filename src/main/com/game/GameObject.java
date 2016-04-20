@@ -25,11 +25,11 @@ public abstract class GameObject {
 		this.y = y;
 	}
 	
-	public int getX(int x) {
+	public int getX() {
 		return x;
 	}
 	
-	public int getY(int y) {
+	public int getY() {
 		return y;
 	}
 	
@@ -49,11 +49,11 @@ public abstract class GameObject {
 		this.velY = velY;
 	}
 	
-	public int getVelX(int velX) {
+	public int getVelX() {
 		return velX;
 	}
 	
-	public int getVelY(int velY) {
+	public int getVelY() {
 		return velY;
 	}
 }
