@@ -30,6 +30,7 @@ public class Game extends Canvas implements Runnable {
 		handler.addObject(new Player(WIDTH / 2 - 32, HEIGHT / 2 - 32, ID.Player, handler));
 //		handler.addObject(new Player(rand.nextInt(WIDTH), rand.nextInt(HEIGHT), ID.Player)); starts player in random position
 		handler.addObject(new BasicEnemy(rand.nextInt(WIDTH), rand.nextInt(HEIGHT), ID.BasicEnemy, handler));
+
 	}
 	
 	public synchronized void start() {
